@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style/main.css" />
+  <title>INOVAE - Realidade Aumentada</title>
+</head>
+<!-- UserWay Accessibility Widget -->
+    <script>
+    (function(d){
+        var s = d.createElement("script");
+        s.setAttribute("data-account", "SEU_ID_AQUI"); // Substitua por seu ID!
+        s.src="https://cdn.userway.org/widget.js";
+        (d.body || d.head).appendChild(s);
+    })(document);
+    </script>
+    <noscript>Ative o JavaScript para acessar os recursos de acessibilidade.</noscript>
+<!-- End of UserWay Accessibility Widget -->
+<!-- VLibras Widget -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+         </div>
+    </div>
+
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+<body>
+   
+
+    <!-- TELA DE ENTRADA -->
+  <div class="splash" id="tela-entrada">
+    <div>
+        <div class="background-animation">
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        </div>
+
+        <div class="container splash-container">
+        <div class="logo-container">
+            <img src="img/logo_inovae_sem_tx.png" alt="Logo INOVAE" class="logo" />
+            <h1 class="company-name">INOVAE</h1>
+            <p class="tagline">Augmented Reality Technology</p>
+        </div>
+
+        <div class="ar-icon">
+            <div class="logo-container">
+            <img src="img/logo.png" alt="Ícone de Realidade Aumentada" class="logo" />
+            </div>
+        </div>
+
+        <p class="description">
+            Descubra novas experiências em Realidade<br>
+            Aumentada. Toque em 'Entrar' para<br>
+            começar!
+        </p>
+
+        <button class="enter-button" onclick="enterApp()">Entrar</button>
+        </div>
+    </div>
+  </div>
+
+  <!-- TELA DE APPS -->
+
+<div id="mainApp" class="main-container" style="display: none;">
+
+       <!-- Floating particles -->
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav" >
+                <div class="logo-area">
+                    <div class="logo-text">
+                        <div>
+                        <img src="img/logo_inovae_sem_tx.png" class="logo-mini" alt="Logo"/>
+                        </div>
+                        <span id="logo_inovae">INOVAE</span><br/>
+                        <p id="logo_inovae_sub">Augmented Reality Technology</p>
+                </div>
+                <div class="nav-menu">
+                    <ul class="nav-links">
+                        <li><a href="#apps">Apps</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#instructions">Instruções</a></li>
+                        <li><a href="#history">História</a></li>
+                    </ul>
+                </div>
+                    <button class="menu-toggle">&#9776;</button>
+            </nav>
+        </div>
+    </header>
+
+    
+    
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>AUGMENTED REALITY</h1>
+            <h2>STORE</h2>
+             <p>Descubra novas experiências em Realidade Aumentada.<br>Toque em 'Explorar Apps' para começar!</p>
+            <a href="#apps" class="cta-button">Explorar Apps</a>
+        </div>
+
+
+
+    </section>
+
+    <!-- Apps Section -->
+    <section id="apps" class="apps-section">
+        <div class="container">
+            <h2 class="section-title">Nossos Aplicativos</h2>
+            <div class="apps-grid">
+                <div class="app-card">
+                    <div class="app-icon peripheral-hunt">🐧</div>
+                    <h3>Peripheral Hunt</h3>
+                    <p>Um jogo educativo de realidade aumentada que ensina sobre periféricos de computador de forma divertida e interativa.</p>
+                    <a href="apk/peripheralhunt.apk" class="download-btn" onclick="downloadAPK('peripheral-hunt')">Em breve!</a>
+                </div>
+                
+                <div class="app-card">
+                    <div class="app-icon hardar">💻</div>
+                    <h3>HardAR</h3>
+                    <p>Explore componentes de hardware em realidade aumentada. Visualize e aprenda sobre diferentes peças de computador em 3D.</p>
+                    <a href="apk/hardar.apk" class="download-btn" onclick="downloadAPK('hardar')">Baixar APK</a>
+                    <a href="pdf/Jogo de cartas - HardAR (1).pdf" class="download-btn" onclick="downloadQRCodes()" style="background: linear-gradient(45deg, #ff6b6b, #feca57);">Baixar QR Codes PDF</a>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <!-- Instructions Section -->
+    <section id="instructions" class="instructions-section">
+        <div class="container">
+            <h2 class="section-title">Como Usar</h2>
+            <div class="instructions-grid">
+                <div class="instruction-card">
+                    <div class="instruction-number">1</div>
+                    <h3>Baixe o App</h3>
+                    <p>Clique no botão "Baixar APK" do aplicativo desejado e instale em seu dispositivo Android.</p>
+                </div>
+                <div class="instruction-card">
+                    <div class="instruction-number">2</div>
+                    <h3>Permita Câmera</h3>
+                    <p>Autorize o acesso à câmera quando solicitado para ativar a realidade aumentada.</p>
+                </div>
+                <div class="instruction-card">
+                    <div class="instruction-number">3</div>
+                    <h3>Escaneie Marcadores</h3>
+                    <p>Para o HardAR, baixe o PDF com QR codes e aponte a câmera para os marcadores impressos.</p>
+                </div>
+                <div class="instruction-card">
+                    <div class="instruction-number">4</div>
+                    <h3>Explore e Aprenda</h3>
+                    <p>Interaja com os objetos 3D e descubra informações fascinantes sobre tecnologia!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h2>Sobre o Projeto</h2>
+                <p>Este projeto usa a <strong>Realidade Aumentada (RA)</strong> para tornar o aprendizado mais interativo e divertido. Nossos aplicativos oferecem experiências imersivas para que estudantes explorem conteúdos de forma lúdica e inovadora.</p>
+                <p>Desenvolvidos com <strong>Unity</strong>, eles estão disponíveis para download gratuito em formato APK, proporcionando acesso fácil e direto às tecnologias educacionais mais avançadas.</p>
+                <p>Nosso objetivo é democratizar o acesso à educação tecnológica através de ferramentas interativas que transformam o aprendizado em uma experiência envolvente e memorável.</p>
+            </div>
+        </div>
+    </section>
+
+<!-- History Section -->
+    <section id="history" class="history-section">
+        <div class="container">
+            <div class="history-content">
+                <div class="history-visual">
+                    <div class="history-icon">🚀</div>
+                    <div class="tech-icons">
+                        <div class="tech-icon">📱</div>
+                        <div class="tech-icon">🔬</div>
+                        <div class="tech-icon">💡</div>
+                        <div class="tech-icon">🎯</div>
+                    </div>
+                </div>
+                <div class="history-text">
+                    <h2>Nossa História</h2>
+                    <p>A INOVAE nasceu da paixão por tecnologia e educação, com o objetivo de revolucionar a forma como aprendemos sobre hardware e tecnologia. Fundada por estudantes visionários, nossa empresa se dedica a criar experiências educacionais únicas através da realidade aumentada.</p>
+                    <p>Desde o início, nossa missão tem sido clara: tornar o aprendizado sobre tecnologia mais acessível, interativo e divertido. Desenvolvemos nossos primeiros aplicativos como projetos acadêmicos e, vendo o impacto positivo, decidimos compartilhar essas ferramentas com o mundo.</p>
+                    <p>Hoje, continuamos inovando e expandindo nosso catálogo de aplicações educacionais, sempre com foco na qualidade e na experiência do usuário.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+            
+            <a href="https://github.com" class="social-link" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+
+            <a href="mailto:alice60130@estudante.ifb.edu.br" class="social-link" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-envelope"></i> Email 
+            </a>
+        </div>
+
+        <!-- Logos institucionais -->
+        <div class="footer-logos">
+             <a href="https://www.gov.br/cnpq" target="_blank" rel="noopener noreferrer">
+                <img src="img/cnpq-.png" alt="CNPq" class="logo-img">
+            </a>
+
+             <a href="https://www.ifb.edu.br" target="_blank" rel="noopener noreferrer">
+                <img src="img/ifb-.png" alt="IFB" class="logo-img">
+             </a>
+
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <img src="img/gptcode.png" alt="Grupo de Pesquisa" class="logo-img">
+            </a>
+</div>
+
+        <p>&copy; 2025 INOVAE - Todos os direitos reservados.</p>
+        <p>Desenvolvido por Estudantes do IFB.</p>
+    </div>
+</footer>
+
+</div>    
+
+  <script src="script.js"></script>
+</body>
+</html>
