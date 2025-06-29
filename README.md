@@ -65,7 +65,7 @@ Este projeto é livre para fins educacionais. Para usos comerciais, entre em con
 
 ## 🙋‍♀️ Desenvolvido por
 
-**Alice Gama | Eduardo | Lucas Mateus | Luidy | Vitória**  
+**Alice Alves | Eduardo | Lucas Mateus | Luidy | Vitória**  
 🖥️ Realidade Aumentada | Educação | Tecnologia  
 📧 contato: [alice60130@estudante.ifb.edu.br]
 
