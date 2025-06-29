@@ -25,6 +25,21 @@ Veja como funciona na prática:
 
 ---
 
+## 📱 Instruções de Instalação
+
+Para experimentar os apps de Realidade Aumentada:
+
+1. Acesse a seção de aplicativos no site
+2. Clique no botão **"Baixar APK"** do aplicativo desejado
+3. Instale o APK em seu dispositivo Android:
+     
+   > **Compatibilidade:** Android **7.0 ou superior** (API 24)
+   
+5. Conceda permissões de câmera e armazenamento, se solicitado
+6. Aponte a câmera para o marcador (caso necessário) e explore a RA!
+
+---
+
 ## 🛠️ Tecnologias utilizadas
 
 - **HTML5** & **CSS3**  
