@@ -38,13 +38,12 @@ Veja como funciona na prática:
 ## 📂 Estrutura do Projeto
 
 📁 raiz </br>
-├── index.html # Tela de entrada </br>
-├── apps.html # Página com os apps RA </br>
-├── css/ </br>
-│ └── estilo.css # Estilos organizados por seção </br>
+├── index.html # Telas </br>
+├── style/ </br>
+│ └── main.css # Estilos organizados por seção </br>
 ├── img/ # Logos e ícones </br>
 └── apk/ # Links para downloads dos apps </br>
-
+└── pdf/ # Link para downloads dos qrcodes </br>
 
 ---
 
