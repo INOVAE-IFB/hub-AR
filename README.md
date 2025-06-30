@@ -1,6 +1,6 @@
-# 🌐 Inovae – Augmented Reality Store
+# 🌐 Inovaê – Augmented Reality Store
 
-Bem-vindo ao **Inovae**, um site criado para apresentar aplicações em **Realidade Aumentada (RA)** desenvolvidas em Unity. A proposta é trazer experiências interativas e educativas de forma moderna e acessível.
+Bem-vindo ao **Inovaê**, um site criado para apresentar aplicações em **Realidade Aumentada (RA)** desenvolvidas em Unity. A proposta é trazer experiências interativas e educativas de forma moderna e acessível.
 
 🚀 **Acesse agora:**  
 👉 [augmented-reality-store.vercel.app](https://augmented-reality-store.vercel.app/)
