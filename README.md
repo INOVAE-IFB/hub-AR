@@ -82,4 +82,4 @@ Este projeto é livre para fins educacionais. Para usos comerciais, entre em con
 
 **Alice Alves | Eduardo | Lucas Mateus | Luidy | Vitória**  
 🖥️ Realidade Aumentada | Educação | Tecnologia  
-📧 Para dúvidas ou sugestões, envie um e-mail para: [Contato INOVAE](alice60130@estudante.ifb.edu)
+📧 Para dúvidas ou sugestões, envie um e-mail para: [Contato INOVAE](mailto:alice60130@estudante.ifb.edu)
