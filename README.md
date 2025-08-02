@@ -17,8 +17,9 @@ https://github.com/user-attachments/assets/5c8a524e-59ce-4eac-8b2d-57f5b6556416
 
 Post's para o Instagram:
 
-<img width="680" height="950" alt="Posts Inovaê" src="https://github.com/user-attachments/assets/c6f1e29d-abc8-49eb-a9f0-997b7a5404e5" />
-<img width="680" height="950" alt="Posts Inovaê (1)" src="https://github.com/user-attachments/assets/d63f7384-13ab-41bf-a7b3-b796b08f94fb" />
+<img width="480" height="750" alt="Posts Inovaê" src="https://github.com/user-attachments/assets/c6f1e29d-abc8-49eb-a9f0-997b7a5404e5" />
+<img width="480" height="750" alt="Posts Inovaê (1)" src="https://github.com/user-attachments/assets/d63f7384-13ab-41bf-a7b3-b796b08f94fb" />
+
 
 Veja como funciona na prática:
 
